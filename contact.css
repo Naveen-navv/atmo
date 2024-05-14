@@ -1,0 +1,132 @@
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+.sectionheader {
+    width: 50vw;
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #6EBE45;
+}
+
+.sectionheader2 {
+    width: 100%;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: clamp(5px,5.5vw,42px);
+    font-weight: 700;
+    line-height: 80px;
+    text-align: left;
+    color: #412312;
+    margin: 0 auto;
+}
+
+.line {
+    width: 86px;
+    height: 5px;
+}
+
+.info {
+    flex-direction: row;
+    padding: 66px 5vw;
+}
+
+
+.icard img {
+    width: 92.28px;
+    height: 52.46px;
+}
+
+.icard h3 {
+    font-size: 135%;
+}
+
+.icardtxt{
+    margin-top: -3px;
+}
+
+.icard h6 {
+    font-size: 100%;
+    color: #686868;
+}
+
+.formpage {
+    padding: 80px 5vw;
+}
+
+.textarea {
+    width: 32%;
+    height: 56px; 
+    border-radius: 6px;
+    background: #F5F5F5;
+    padding: 10px;
+    border-color: transparent;
+}
+
+.textarea2 {
+    margin-top: 20px;
+    width: 100%;
+    height: 162px;
+    gap: 152px;
+    border-color: transparent;
+    border-radius: 6px;
+    opacity: 0px;
+    background: #F5F5F5;
+    padding: 10px;
+}
+
+iframe{
+    width: 100vw;
+    height: 403px;
+}
+
+@media only screen and (max-width:1068px) {
+  
+    .linfo{
+        width: 100% !important;
+    }
+
+    .info{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .textarea{
+        width: 100%;
+    }
+
+    .sectionheader2 {
+        width: 90vw;
+        height: auto;
+       line-height: 60px;
+    }
+
+    .line{
+        margin-top: 25px;
+    }
+
+    .icards{
+        flex-direction: row !important;
+    flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .line{
+        margin-top: 10px;
+    }
+
+    .sectionheader2{
+        line-height: 40px;
+    }
+}
