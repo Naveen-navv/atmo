@@ -1,0 +1,546 @@
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 85px;
+}
+
+.sectionheader {
+    width: 88px;
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #6EBE45;
+    margin: 0 auto;
+}
+
+.sectionheader2 {
+    width: 723px;
+    height: 80px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: left;
+    color: #412312;
+    margin: 0 auto;
+}
+
+.line {
+    margin: 0 auto;
+    width: 86px;
+    height: 5px;
+}
+
+.ph1 {
+    width: 38%;
+    height: 496px;
+    top: 271px;
+    left: 72px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    position: absolute;
+}
+
+.ph2 {
+    width: 35%;
+    height: 253px;
+    top: 623px;
+    left: 182px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    position: absolute;
+}
+
+.gs {
+    width: 94px;
+    height: 93.99px;
+    top: 782px;
+    left: 72px;
+    padding: 6px 0px 0px 0px;
+    gap: 10px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    position: absolute;
+}
+
+.abcon {
+    margin-left: 50vw;
+    margin-top: 60px;
+    gap: 20px;
+}
+
+.abcon h3 {
+    width: 90%;
+    top: 279px;
+    left: 732px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+
+}
+
+.laboutcard {
+    width: 88%;
+    height: 169px;
+    gap: 24px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.laboutcard img {
+    width: 80px;
+    height: 80px;
+}
+
+.labouttxt {
+    width: inherit;
+    height: 120px;
+    gap: 60px;
+    opacity: 0px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.labouttxt h3 {
+    width: inherit;
+    height: 17px;
+    font-family: Inter;
+    font-size: clamp(5px, 24px, 5vw);
+    font-weight: 700;
+    line-height: 80px;
+    text-align: left;
+
+    color: black;
+
+}
+
+.labouttxt h5 {
+    width: 100%;
+    height: 73px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: clamp(5px, 4vw, 18px);
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #686868;
+
+}
+
+.conbox {
+    width: 480px;
+    height: 50px;
+    gap: clamp(5px,3vw,36px);
+    margin-top: 15px;
+}
+
+.conbutton img{
+    width: 100%;
+    gap: 14px;
+    color: white;
+    opacity: 0px;
+    background: #6EBE45;
+    border: 1px solid #6EBE45;
+    display: flex;
+    font-size: 95%;
+
+}
+
+.num {
+    width: 262px;
+    height: 50px;
+    gap: 16px;
+    opacity: 0px;
+
+}
+
+.num h6 {
+    width: 196px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+font-size: clamp(5px,5vw,24px);
+font-weight: 600;
+text-align: left;
+margin: auto 0;
+}
+
+button {
+    border: none;
+}
+
+
+.team {
+    padding-top: 80px;
+    position: relative;
+}
+
+.tcon {
+    top: 47px;
+    left: 120px;
+    gap: 30px;
+    opacity: 0px;
+    position: relative;
+    flex-direction: row;
+}
+
+
+.ncon {
+    width: 280px;
+    height: 96px;
+    
+    left: 118px;
+    padding: 13px 94px 13px 25px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: white;
+}
+
+.ncon h2 {
+    width: inherit;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+
+}
+
+.ncon h3 {
+    width: 100%;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #686868;
+
+}
+
+#nc2 {
+    left: 504px;
+    background: #6EBE45;
+    color: white;
+}
+
+#nc3 {
+    left: 888px;
+}
+
+#nc2 h3 {
+    color: white;
+}
+
+.tcon2 {
+    width: fit-content;
+    top: 135px;
+    left: 56px;
+    padding: 43px 16px 43px 16px;
+    gap: 10px;
+    border: 1px solid #7C7C7C;
+    position: relative;
+    flex-direction: row;
+}
+
+.tcard {
+    width: 295px;
+    gap: 18px;
+    opacity: 0px;
+
+}
+
+.tcard img {
+    width: 50px;
+    height: 50px;
+}
+
+.tcardtxt {
+    width: 227px;
+    gap: 40px;
+    opacity: 0px;
+    margin-top: -25px;
+}
+
+.tcard h2 {
+    width: 100%;
+    height: 17px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: left;
+    color: white;
+
+}
+
+.tcard h3 {
+    width: 227px;
+    height: 43px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #F3F3F3;
+}
+
+.bg {
+    position: absolute;
+    width: 100vw;
+    height: 783px;
+    top: 410px;
+    color: #000000B2;
+}
+
+.req {
+    position: relative;
+    top: 252px;
+    background: #F7F7F7;
+    flex-direction: row;
+}
+
+.bed {
+    width: 50%;
+    height: 100%;
+    top: -33px;
+    left: -82px;
+
+}
+
+.rreq {
+    margin: auto;
+}
+
+#rsh2 {
+    width: 609px;
+    height: 160px;
+    font-size: 35px;
+    line-height: 60px;
+}
+
+#reqbtn {
+    background-color: #F7F7F7;
+}
+
+#rline,
+#rsh2,
+#rsh1 {
+    margin: 0;
+}
+
+#rsh1 {
+    width: 100%;
+}
+
+#rline {
+    margin-top: -20px;
+}
+
+#reqbtn {
+    height: auto;
+    margin-top: 60px;
+    border: 1px solid #412312;
+    color: #412312;
+    width: 160px;
+    padding: 8px 15px 8px 10px;
+    gap: 10px;
+    font-weight: 500;
+}
+
+#reqbtn img {
+    margin: auto 0;
+    width: auto;
+    background: none;
+    border: none;
+}
+
+
+@media only screen and (max-width: 1068px) {
+
+    .ph1 {
+        width: 85%;
+        left: 5%;
+        height: 365px;
+    }
+
+    .ph2 {
+        top: 554px;
+        width: 61%;
+        height: auto;
+        left: 35%;
+    }
+
+    .gs {
+        width: 14%;
+        height: auto;
+        left: 5%;
+        top: 642px;
+    }
+
+    .abcon {
+        margin-left: 5vw;
+        margin-top: 545px;
+        width: 100vw;
+    }
+
+    .labouttxt {
+        gap: 0;
+    }
+
+    .labouttxt h3 {
+        height: auto;
+        line-height: inherit;
+    }
+
+    .laboutcard img {
+        width: 19%;
+        height: 19%;
+    }
+
+    .laboutcard,
+    .labouttxt,
+    .labouttxt h5 {
+        height: auto;
+    }
+
+    .num{
+        gap: 5px;
+    }
+
+    .num img {
+        width: 14%;
+        height: 78%;
+        margin: auto 0;
+    }
+
+    .conbutton{
+        width: 30%;
+    }
+
+    .num{
+        width: 50%;
+        height: 80%;
+    }
+
+    .tcon{
+        flex-direction: column;
+        left: 5vw;
+    }
+
+    .tcard1 img{
+        width: 90vw;
+    
+    }
+
+    .tcon2{
+        flex-direction: column;
+        gap: 40px;
+        margin: auto;
+        left: 0;
+    }
+
+    .bg{
+        height: 2800px;
+    }
+
+    .bed{
+        width: 100%;
+    }
+
+    .req{
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .rreq{
+        width: 93vw;
+    }
+
+    #rsh2{
+        width: 93vw;
+        height: auto;
+        text-align: left;
+    }
+
+    #rline{
+        margin-top: 10px;
+    }
+
+    #reqbtn{
+        margin-top: 40px;
+    }
+
+    .sectionheader2 {
+        width: 86vw;
+        height: auto;
+        font-size: clamp(5px,5.5vw,42px);
+        line-height: 40px;
+        text-align: center;
+        
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:1068px) {
+    .tcon2{
+        width: 88vw;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .bg{
+        height: 4340px;
+    }
+
+    .sectionheader2{
+        line-height: 70px;
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width:1068px) {
+    .abcon {
+        margin-top: 700px;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width:600px) {
+   .bg{
+    height: 3100px;
+   }
+}
